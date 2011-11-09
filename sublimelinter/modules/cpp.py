@@ -6,7 +6,7 @@ import re
 from base_linter import BaseLinter
 
 CONFIG = {
-    'language': 'c',
+    'language': 'cpp',
     'executable': 'clang',
     #'lint_args': ('-xc++', '-fsyntax-only', '-Werror', '-pedantic', '-')
 }
