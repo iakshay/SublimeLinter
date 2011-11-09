@@ -102,7 +102,7 @@ class Loader(object):
 
         except KeyError:
             print 'SublimeLinter: general error importing {0} ({1})'.format(name, language or '<unknown>')
-            is_enabled = False
+            # is_enabled = False # Supposed to be a member?
 
         os.chdir(pushd)
 
