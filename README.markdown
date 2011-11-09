@@ -14,6 +14,7 @@ SublimeLinter has built in linters for the following languages:
 * php - syntax checking via "php -l"
 * python - native, moderately-complete lint
 * ruby - syntax checking via "ruby -wc"
+* C/C++ - syntax checking via "clang -fsyntax-only"
 
 Installing
 ----------
